@@ -13,7 +13,7 @@ function memo() {
       }
       const item = XHR.response.post;
       const list = document.getElementById("list");
-      const formText = document.getElementById("content");
+      const formText = document.getElementById("create");
       const HTML = `
         <div class="post" data-id=${item.id}>
           <div class="post-date">
